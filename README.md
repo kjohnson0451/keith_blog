@@ -22,7 +22,7 @@ If you make changes to the database files and things stop working, run the follo
 
 `$ bin/rails db:migrate`
 
-##FILES OF NOTE
+## FILES OF NOTE
 
 app/models/article.rb
 app/models/comment.rb
