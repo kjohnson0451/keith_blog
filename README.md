@@ -8,12 +8,17 @@ This project was initially created using the command:
 The files at the bottom of this readme were then created/modified to contain what they do currently.
 
 Make sure to run the database commands:
+
 `$ bin/rails db:setup`
+
 `$ bin/rails db:migrate`
 
 If you make changes to the database files and things stop working, run the following commands:
+
 `$ rm db/schema`
+
 `$ bin/rails db:reset`
+
 `$ bin/rails db:migrate`
 
 ##FILES OF NOTE
