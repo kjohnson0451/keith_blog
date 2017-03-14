@@ -34,7 +34,6 @@ app/controllers/comments_controller.rb
 
 app/controllers/welcome_controller.rb
 
-
 app/views/articles/edit.html.erb
 
 app/views/articles/_form.html.erb
@@ -45,21 +44,16 @@ app/views/articles/new.html.erb
 
 app/views/articles/show.html.erb
 
-
 app/views/comments/_comment.html.erb
 
 app/views/comments/_form.html.erb
 
-
 app/views/welcome/index.html.erb
 
-
 config/routes.rb
-
 
 db/migrate/20170303210807_create_articles.rb
 
 db/migrate/20170303210901_create_comments.rb
-
 
 db/schema.rb
