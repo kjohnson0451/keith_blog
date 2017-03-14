@@ -24,7 +24,7 @@ If you make changes to the database files and things stop working, run the follo
 
 ## FILES OF NOTE
 
-app/models/article.rb
+[app/models/article.rb]
 
 app/models/comment.rb
 
