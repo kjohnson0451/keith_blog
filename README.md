@@ -3,6 +3,7 @@
 A very simple blog application that showcases Rails' basic functionality.
 
 This project was initially created using the command:
+
 `$ rails new keith_blog --database=postgresql`
 
 The files at the bottom of this readme were then created/modified to contain what they do currently.
