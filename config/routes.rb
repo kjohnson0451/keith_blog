@@ -22,6 +22,6 @@ Rails.application.routes.draw do
   put '/articles/:article_id/comments/:id/', to: 'comments#update'
   delete '/articles/:article_id/comments/:id/', to: 'comments#destroy'
 
-  # DEFINES THE HOMEPAGE  
-  root 'welcome#index'
+  # DEFINES THE HOMEPAGE
+  root 'articles#index'
 end
