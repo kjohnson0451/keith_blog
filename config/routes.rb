@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   # get 'articles', to: 'articles#index', as: 'something', path: 'blahblah'
 
   # ARTICLES RESOURCES
+  get '/articles/history', to: 'articles#history', as: 'articles_history'
   get '/articles/', to: 'articles#index'
   post '/articles/', to: 'articles#create'
   get '/articles/new/', to: 'articles#new', as: 'new_article'

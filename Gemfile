@@ -38,6 +38,9 @@ gem 'jbuilder', '~> 2.5'
 # Authentication solution for Rails
 gem 'devise', '~> 4.2'
 
+# Allows for auditing
+gem 'paper_trail', '~> 7.0.2'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
